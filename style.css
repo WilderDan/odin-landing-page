@@ -67,3 +67,40 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.info {
+  padding: 5vh 0 10vh;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
+.card-image {
+  border: 3px solid blue;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.card-text {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  text-align: center;
+}
