@@ -4,7 +4,11 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.header-logo {
+  margin: 0;
 }
 
 .header-links {
