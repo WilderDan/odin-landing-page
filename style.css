@@ -104,3 +104,31 @@ body {
   margin-bottom: 0px;
   text-align: center;
 }
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 10vh 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 65vw;
+}
+
+.quote-content {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote-caption {
+  font-size: 24px;
+  align-self: flex-end;
+  font-weight: bold;
+}
