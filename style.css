@@ -16,8 +16,7 @@ body {
 
 .hero-main {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10vh;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -29,18 +28,20 @@ body {
 
 .hero-left {
   flex: 1 1 50%;
+  max-width: 500px;
+  min-width: 300px;
 }
 
-.hero-image {
+.hero-right {
   flex: 1 1 50%;
-  max-width: 600px;
+  flex-direction: column;
+  max-width: 500px;
   min-width: 300px;
   display: flex;
 }
 
 .hero-image img {
   width: 100%;
-  align-self: center;
 }
 
 .hero-subtext,
@@ -63,11 +64,6 @@ body {
   margin-top: 8px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header-logo {
   margin: 0;
   font-size: 24px;
@@ -77,10 +73,15 @@ body {
 .header-links {
   display: flex;
   gap: 16px;
-  align-items: center;
+  justify-content: flex-end;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.header-logo,
+.header-links {
+  margin-bottom: 10vh;
 }
 
 .info {
